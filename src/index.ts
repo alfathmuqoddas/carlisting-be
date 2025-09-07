@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Synchronize all models with the database
 try {
-  await sequelize.sync({ force: false });
+  await sequelize.sync({ force: true });
   console.log("Database synchronized with relations successfully.");
 } catch (error) {
   console.error("Unable to sync the database:", error);
