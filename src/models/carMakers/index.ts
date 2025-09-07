@@ -25,3 +25,5 @@ CarMaker.init(
   },
   { sequelize, modelName: "CarMaker" }
 );
+
+export default CarMaker;

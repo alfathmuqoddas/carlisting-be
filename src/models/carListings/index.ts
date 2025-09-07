@@ -47,3 +47,5 @@ CarListing.init(
   },
   { sequelize, modelName: "CarListing" }
 );
+
+export default CarListing;

@@ -9,7 +9,7 @@ class CarModel
   implements TCarModel
 {
   declare id: string;
-  declare make_id: string;
+  declare maker_id: string;
   declare name: string;
   declare description: string;
 }
@@ -27,3 +27,5 @@ CarModel.init(
   },
   { sequelize, modelName: "CarModel" }
 );
+
+export default CarModel;
